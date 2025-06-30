@@ -1,0 +1,8 @@
+[Service]
+User=yuze
+Group=security
+
+WorkingDirectory=/home/yuze/
+ExecStart=/home/yuze/code tunnel
+Restart=always
+RestartSec=10
