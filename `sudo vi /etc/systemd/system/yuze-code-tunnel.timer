@@ -1,0 +1,9 @@
+[Unit]
+Description=Run yuze-code-tunnel.service every 24 hours
+
+[Timer]
+OnUnitActiveSec=24h
+Unit=yuze-code-tunnel.service
+
+[Install]
+WantedBy=timers.target
