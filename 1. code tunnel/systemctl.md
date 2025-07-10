@@ -27,3 +27,9 @@ sudo systemctl start yuze-code-tunnel.service
 ```bash
 sudo systemctl start yuze-code-tunnel.timer
 ```
+
+6. enable auto start when system reboot
+```bash
+sudo systemctl enable yuze-code-tunnel.service
+sudo systemctl enable yuze-code-tunnel.timer
+```
